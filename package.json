@@ -1,0 +1,47 @@
+{
+  "name": "english-explorer",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "backup:content": "node scripts/backup-content-library.mjs",
+    "validate:arcade": "node scripts/validate-arcade-content.mjs",
+    "validate:learning-games": "node scripts/validate-learning-games.mjs",
+    "validate:shape-symbols": "node scripts/validate-shape-symbols.mjs",
+    "validate:randomization": "node scripts/validate-randomization.mjs",
+    "validate:adaptive-learning": "node scripts/validate-adaptive-learning.mjs",
+    "validate:easy-access-ui": "node scripts/validate-easy-access-ui.mjs",
+    "validate:two-column-layout": "node scripts/validate-two-column-layout.mjs",
+    "validate:game-integrity": "node scripts/validate-game-integrity.mjs",
+    "validate:game-layout": "node scripts/validate-game-layout.mjs",
+    "validate:mission-answers": "node scripts/validate-mission-answer-contract.mjs",
+    "validate:column-math": "node scripts/validate-column-math.mjs",
+    "docs:column-math": "python scripts/create-column-math-system-design-doc.py",
+    "docs:science-images": "python scripts/create-science-image-system-design-doc.py",
+    "validate:mission-correctness": "node scripts/validate-mission-correctness.mjs",
+    "validate:mission-surfaces": "node scripts/validate-mission-surface-contract.mjs",
+    "validate:challenge-migrations": "node scripts/validate-challenge-migrations.mjs",
+    "validate:worlds-entry": "node scripts/validate-worlds-entry.mjs",
+    "validate:content-payload": "node scripts/validate-content-payload.mjs",
+    "validate:supabase-content": "node scripts/validate-supabase-content.mjs",
+    "import:content": "node scripts/import-content-bundle.mjs",
+    "validate:contracts": "node scripts/validate-contract-docs.mjs",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "seed:supabase": "node scripts/seed-supabase.mjs",
+    "validate:science-images": "node scripts/validate-science-images.mjs",
+    "validate:final-test": "node scripts/validate-final-test.mjs",
+    "docs:final-test": "python scripts/create-final-test-system-design-doc.py"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.110.8",
+    "framer-motion": "^12.23.12",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "vite": "^7.0.0"
+  }
+}

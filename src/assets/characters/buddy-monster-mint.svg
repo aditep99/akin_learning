@@ -1,0 +1,18 @@
+<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mintBody" x1="55" y1="36" x2="164" y2="188" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9DF2C8"/>
+      <stop offset="1" stop-color="#4CCB9D"/>
+    </linearGradient>
+  </defs>
+  <path d="M51 108C51 66 77 40 110 40C143 40 169 66 169 108V150C169 171 153 188 132 188H88C67 188 51 171 51 150V108Z" fill="url(#mintBody)"/>
+  <path d="M70 51L92 71" stroke="#4CCB9D" stroke-width="12" stroke-linecap="round"/>
+  <path d="M150 51L128 71" stroke="#4CCB9D" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="85" cy="102" r="11" fill="#243B53"/>
+  <circle cx="135" cy="102" r="11" fill="#243B53"/>
+  <circle cx="81" cy="98" r="4" fill="#fff"/>
+  <circle cx="131" cy="98" r="4" fill="#fff"/>
+  <path d="M87 140C97 149 105 153 110 153C115 153 123 149 133 140" stroke="#243B53" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="73" cy="126" r="8" fill="#fff" fill-opacity=".35"/>
+  <circle cx="147" cy="126" r="8" fill="#fff" fill-opacity=".35"/>
+</svg>

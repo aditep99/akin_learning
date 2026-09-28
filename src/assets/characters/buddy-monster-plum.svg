@@ -1,0 +1,18 @@
+<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="plumBody" x1="48" y1="40" x2="170" y2="185" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#CFA8FF"/>
+      <stop offset="1" stop-color="#8F6AEF"/>
+    </linearGradient>
+  </defs>
+  <path d="M43 116C43 71 73 43 110 43C147 43 177 71 177 116C177 156 152 186 110 186C68 186 43 156 43 116Z" fill="url(#plumBody)"/>
+  <path d="M82 54L93 78" stroke="#8F6AEF" stroke-width="12" stroke-linecap="round"/>
+  <path d="M138 54L127 78" stroke="#8F6AEF" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="83" cy="108" r="12" fill="#243B53"/>
+  <circle cx="137" cy="108" r="12" fill="#243B53"/>
+  <circle cx="79" cy="104" r="4" fill="#fff"/>
+  <circle cx="133" cy="104" r="4" fill="#fff"/>
+  <path d="M86 144C95 137 103 134 110 134C117 134 125 137 134 144" stroke="#243B53" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="68" cy="131" r="8" fill="#FFB3D8" fill-opacity=".8"/>
+  <circle cx="152" cy="131" r="8" fill="#FFB3D8" fill-opacity=".8"/>
+</svg>
